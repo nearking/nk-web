@@ -1,6 +1,6 @@
 {
   "name": "nk-web",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "normal web kit | 简易构建网页服务工具",
   "main": "index.js",
   "scripts": {

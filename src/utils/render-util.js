@@ -31,7 +31,8 @@ module.exports = {
     var html = '';
     param = param || {};
     param.cache === null ? true : false; // 默认启用
-
+    let pagePath = param.pagePath;
+    
     if (param.cache && GHtmlCacheMap[pagePath]) {
       html = GHtmlCacheMap[pagePath];
     } else {
