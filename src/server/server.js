@@ -2,6 +2,7 @@ const Koa = require('koa');
 const koaBody = require('koa-body');
 const koaHelmet = require('koa-helmet');
 const koaCors = require('@koa/cors');
+const koaStatic = require('koa-static');
 
 /**
  * 启动 web 服务并且返回 koa2 对象
