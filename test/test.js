@@ -1,12 +1,4 @@
-# nk-web
-normal web kit | 简易构建网页服务工具
-
-封装了 koa 的部分插件，简化了路由的配置逻辑，从而可以快速的启动一个 web 服务。
-
-### 启动一个 web 服务
-
-```javascript
-const NKWeb = require('nk-web');
+const NKWeb = require('../index');
 
 let port = 23390;
 let app = NKWeb.serve();
@@ -21,4 +13,3 @@ NKWeb.route(app, [{
 
 app.listen(port);
 console.log(`启动服务: http://loaclhost:${port}`);
-```
